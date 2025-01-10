@@ -1,3 +1,5 @@
+// Example:
+
 // http://localhost:8000/wordnik/love
 
 const express = require('express');

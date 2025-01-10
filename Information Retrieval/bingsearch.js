@@ -1,6 +1,6 @@
 // Example:
 
-// bing-search?q=cat
+// http://localhost:8000/bing-search?q=cat
 
 const express = require('express');
 const axios = require('axios');

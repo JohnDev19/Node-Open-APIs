@@ -1,3 +1,12 @@
+// Example:
+
+// With Default Count Results
+// - http://localhost:8000/pdf?find=the20%book20%of20%lies
+
+// With Optional Count Results
+// - http://localhost:8000/pdf?find=the20%book20%of20%lies&count=20
+
+
 const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');

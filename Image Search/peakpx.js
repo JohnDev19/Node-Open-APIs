@@ -1,3 +1,11 @@
+// Example:
+
+// With Default Count Results
+// -  peakpx?search=cat
+
+// With Optional Count Results
+// - peakpx?search=cat&count=15
+
 const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');

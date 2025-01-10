@@ -1,3 +1,7 @@
+// Example:
+
+// http://localhost:8000/creepypasta?q=cat
+
 const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');
@@ -10,7 +14,7 @@ app.get('/creepypasta', async (req, res) => {
     const searchQuery = req.query.q;
 
     if (!searchQuery) {
-        return res.status(400).json({ error: 'A search query is required' });
+        return res.status(400).json({ error: 'A search query "q" is required' });
     }
 
     const searchUrl = `https://www.creepypasta.com/?s=${encodeURIComponent(searchQuery)}`;

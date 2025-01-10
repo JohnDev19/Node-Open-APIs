@@ -1,3 +1,7 @@
+// Example:
+
+// http://localhost:8000/webster/love
+
 const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');

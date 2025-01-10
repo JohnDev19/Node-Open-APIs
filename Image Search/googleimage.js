@@ -1,3 +1,11 @@
+// Example:
+
+// With Default Count Results
+// -  google/image?search=cat
+
+// With Optional Count Results
+// - google/image?search=cat&count=15
+
 const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');

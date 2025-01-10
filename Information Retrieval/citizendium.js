@@ -1,3 +1,7 @@
+// Example:
+
+// http://localhost:8000/citizendium/science
+
 const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');
